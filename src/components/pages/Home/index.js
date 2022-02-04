@@ -3,7 +3,6 @@ import { useGetData } from '../../../hooks/useGetData';
 import { AnimeSlider } from '../../organism/slider/AnimeSlider';
 
 export const Anime = () => {
-    console.log('ok')
     const animeData = useGetData(1)
     const animeData4 = useGetData(4)
     const animeData25 = useGetData(25)

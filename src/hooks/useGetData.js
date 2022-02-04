@@ -4,8 +4,6 @@ export const useGetData = (genre)=>{
   const url = `https://jikan1.p.rapidapi.com/genre/anime/${genre}/1`
   const [data, setData] = useState(null);
   
-  console.log({genre})
-  
   useEffect(() =>{
     fetch(url, {
       headers: {
