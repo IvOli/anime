@@ -1,0 +1,23 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 32, 32);
+    color: white;
+}
+.container{
+    width: 80vw;
+    text-align: center;
+}
+.slick-next:before{
+    font-size: 30px;
+    color:rgb(0, 255, 255);
+}
+.slick-prev:before{
+    font-size: 30px;
+    color:rgb(0, 255, 255);
+}
+

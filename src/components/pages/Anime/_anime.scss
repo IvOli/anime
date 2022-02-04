@@ -1,0 +1,53 @@
+.animecontainer{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: center;
+    font-size: 20px;
+    h1{
+        text-align: center;
+    }
+    img{
+        width: 200px;
+    }
+    &__synopsis{
+        width: 60vw;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        width: 60vw;
+        justify-content: center;
+        padding: 0%;
+        li{
+            width: 100px;
+            // height: 40px;
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // flex-wrap: wrap;
+            margin: 0px 2.5px 5px 0px;
+        }
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        background-color: rgb(4, 78, 78);
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        // margin-top: 25px;
+        margin-bottom: 25px;
+        width: 100px;
+        &:hover{
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+    }
+}
